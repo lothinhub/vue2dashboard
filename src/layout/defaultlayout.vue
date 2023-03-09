@@ -4,9 +4,6 @@
           <div class="container">
             <NavBar/>
             <AsideBar/>
-            <!-- <main>
-                <router-view></router-view>
-            </main> -->
          </div>
     </header>
     

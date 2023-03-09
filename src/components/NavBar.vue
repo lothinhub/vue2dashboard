@@ -1,7 +1,8 @@
 <template>
     <div>
-        <nav class="flex text-center text-xl w-screen bg-indigo-50 drop-shadow-2xl gap-10 text-fuchsia-600">
         
+        <nav class="flex text-center text-xl w-screen bg-indigo-50 drop-shadow-2xl gap-10 text-fuchsia-600">
+        <h1>Cristaino Lothinny</h1>
             <div class="nav-item">
                 <router-link to="/">Dashboard</router-link>
             </div>

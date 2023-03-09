@@ -174,6 +174,11 @@
       </div>
     </div>
 
+   <main class="main flex flex-grow flex-col p-2 transition-all duration-150 ease-in md:ml-0 drop-shadow-md rounded">
+      <div class="flex h-full w-full items-center justify-center bg-white text-center text-5xl font-bold rounded-lg">
+        <router-view />
+      </div>
+  </main>
   </div>
 </template>
 <script setup>
@@ -181,3 +186,10 @@ import { ref } from "vue";
 
 const isOpen = ref(false);
 </script>
+<style>
+  .layout{
+    width:100;
+    height:300px;
+    background-color:gray;
+  }
+</style>
