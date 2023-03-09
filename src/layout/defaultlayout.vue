@@ -3,19 +3,23 @@
     <header>
           <div class="container">
             <NavBar/>
+            <AsideBar/>
+            <!-- <main>
+                <router-view></router-view>
+            </main> -->
          </div>
     </header>
-    <main>
-        <router-view></router-view>
-    </main>
+    
   </div>
 </template>
 
 <script>
 import NavBar from '@/components/NavBar.vue';
+import AsideBar from '@/components/AsideBar.vue';
 export default {
     components: {
         NavBar,
+        AsideBar,
     }
 }
 </script>
