@@ -3,7 +3,6 @@
     <header>
           <div class="container">
             <NavBar/>
-            <AsideBar/>
          </div>
     </header>
     <main>
@@ -14,11 +13,9 @@
 
 <script>
 import NavBar from '@/components/NavBar.vue';
-import AsideBar from '@/components/AsideBar.vue';
 export default {
     components: {
         NavBar,
-        AsideBar
     }
 }
 </script>
