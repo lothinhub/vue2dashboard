@@ -1,5 +1,3 @@
-
-
 <template>
   <div class="flex">
     <div :class="isOpen ? 'w-40' : 'w-60'"
@@ -99,11 +97,11 @@
         </div>
       </div>
     </div>
-
-    
-    <!-- <main>
-      <router-view></router-view>
-    </main> -->
+   <main class="main flex flex-grow flex-col p-2 transition-all duration-150 ease-in drop-shadow-md rounded">
+      <div class="flex h-full items-center justify-center bg-white text-center text-5xl font-bold rounded-lg">
+        <router-view />
+      </div>
+  </main>
   </div>
 </template>
 <script setup>
@@ -111,3 +109,8 @@ import { ref } from "vue";
 
 const isOpen = ref(false);
 </script>
+<style>
+  .main{
+    width:100%;
+  }
+</style>

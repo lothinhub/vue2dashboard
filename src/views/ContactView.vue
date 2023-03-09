@@ -1,12 +1,18 @@
 <template>
   <div>
         <H1>Contact</H1>
+        <ModalPeople/>
+
   </div>
 </template>
 
 <script>
-export default {
+import ModalPeople from '@/components/ModalPeople.vue';
 
+export default {
+  components:{
+        ModalPeople,
+  }
 }
 </script>
 
